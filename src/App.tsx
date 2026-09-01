@@ -36,6 +36,14 @@ function App() {
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'}>
           <a href="#about" onClick={() => setMenuOpen(false)}>About</a><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
           {/* <button className="nav-edit" onClick={() => setEditOpen(true)}><Edit3 size={15} /> Edit profile</button> */}
+          <a
+  
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume
+</a>
         </nav>
       </header>
 
