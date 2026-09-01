@@ -1,4 +1,4 @@
-export type Project = { title: string; description: string; bullets: string[]; link: string };
+export type Project = { title: string; description: string; bullets: string[]; link: string; snapshot: string; };
 
 export type PortfolioContent = {
   name: string;
@@ -56,6 +56,7 @@ export const portfolio: PortfolioContent = {
       title: 'Face Recognition & Classification System',
       description:
         'A computer vision system for real-time face recognition and classification.',
+        snapshot: '/images/face-recognition.png',
       bullets: [
         'Implemented PCA-based feature extraction to reduce dimensionality and generate Eigenfaces.',
         'Built and trained an Artificial Neural Network (ANN) for face classification.',
@@ -68,6 +69,7 @@ export const portfolio: PortfolioContent = {
       title: 'Diabetes Prediction Web Application',
       description:
         'A practical machine learning web app that turns a trained model into a usable prediction workflow.',
+        snapshot: '/images/diabetes-prediction.png',
       bullets: [
         'Developed a Diabetes Prediction web application using Django and Machine Learning.',
         'Implemented end-to-end ML workflow: EDA, model training, evaluation, and deployment.',
