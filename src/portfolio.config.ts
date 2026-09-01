@@ -25,11 +25,11 @@ export type PortfolioContent = {
 export const portfolio: PortfolioContent = {
   name: 'Aafrin Ara',
   role: 'Data Analyst & Developer',
-  location: 'Jamuha, Rohtas, India',
+  location: 'Rohtas, India',
   email: 'aafrinafal38@gmail.com',
   phone: '+91 8219080102',
-  linkedin: 'https://www.linkedin.com',
-  github: 'https://github.com',
+  linkedin: 'https://www.linkedin.com/in/aafrin-a-858005338 ',
+  github: 'https://github.com/AafrinAra',
   photo: '/images/WhatsApp_Image_2026-09-01_at_4.32.21_PM.jpeg',
   summary:
     'Data Analyst with 1+ year of experience in data analysis, data cleaning, and visualization using SQL, Python, Excel, and Power BI. Skilled in transforming raw data into actionable insights, creating interactive dashboards, and supporting data-driven business decisions. Passionate about solving business problems through data analysis and continuous learning.',
@@ -62,7 +62,7 @@ export const portfolio: PortfolioContent = {
         'Pre-processed facial images and tuned model parameters for better performance.',
         'Improved face recognition accuracy and overall system efficiency.',
       ],
-      link: 'https://github.com',
+      link: 'https://github.com/AafrinAra/Implementation-of-PCA-with-ANN-algorithm-for-Face-recognition',
     },
     {
       title: 'Diabetes Prediction Web Application',
@@ -72,7 +72,7 @@ export const portfolio: PortfolioContent = {
         'Developed a Diabetes Prediction web application using Django and Machine Learning.',
         'Implemented end-to-end ML workflow: EDA, model training, evaluation, and deployment.',
       ],
-      link: 'https://github.com',
+      link: 'https://github.com/AafrinAra/Diabetes_Risk_Prediction',
     },
   ],
   skills: [
